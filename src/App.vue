@@ -12,7 +12,7 @@
     </div>
     <transition name="fade" mode="out-in">
       <div v-if="warningMsg" class="alert alert-warning d-flex align-items-center" role="alert">
-        Location entered is not found
+        Location entered is not found. Please select a location from dropdown
       </div>
     </transition>
   </div>
